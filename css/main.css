@@ -78,6 +78,87 @@
 html {
 	font-size: 10px;
 }
+
+#projects {
+    background: #FFFFFF;
+    position: relative;
+    padding: 12rem 0 9rem;
+}
+
+.small-text{
+	font-size: 1.60rem;
+}
+
+.preview{
+	width: 100%;
+	height: auto;
+}
+
+.project-listing{
+    max-width: 50%;
+}
+
+.view-project-btn{
+	height: 2vh;
+}
+
+.btn-project-watch{
+    position: relative;
+    top: 30%;
+    width: 5vh;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 2rem;
+	color: black;
+}
+
+.project-title{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.85;
+	text-transform: uppercase;
+	letter-spacing: .2rem;	
+}
+
+.card {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+	padding: 2px 16px;
+  }
+
+  .badge {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: grey;
+    color: white;
+    
+    border-radius: 3rem; 
+    text-align: center;
+    font-family: 'montserrat-regular';
+	font-size: 1.1vh;
+    font-weight: 400;
+    padding: .05rem .8rem .1rem;
+    line-height: inherit;
+}
+
+.professional-listing {
+	margin-top: 1vh;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.85;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+}
+
 @media only screen and (max-width:1024px) {
 	html {
 		font-size: 9.375px;
@@ -184,6 +265,7 @@ h6, .h06 {
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 }
+
 
 p img {
 	margin: 0;
@@ -2348,8 +2430,8 @@ header .header-logo a {
 	height: 4.8rem;
 	width: 4.8rem;
 	line-height: 4.8rem;
-	background: #0000FF;
-	border-radius: 50%;
+	background: #cecece;
+	border-radius: 20%;
 	text-align: center;
 	color: #FFFFFF;
 	position: absolute;
